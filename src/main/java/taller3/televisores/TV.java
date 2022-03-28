@@ -40,8 +40,8 @@ public class TV {
 		return precio;
 	}
 	
-	public void setControl(Control controltv) {
-		this.controltv=controltv;
+	public void setControl(Control control) {
+		this.controltv=control;
 	}
 	
 	public Control getControl() {
@@ -112,6 +112,9 @@ public class TV {
 	
 	public static void setNumTV(int num) {
 		TV.numTV=num;
+	}
+	public static int getNumTV() {
+		return TV.numTV;
 	}
 
 
