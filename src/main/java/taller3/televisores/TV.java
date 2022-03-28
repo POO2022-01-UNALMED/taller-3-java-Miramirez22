@@ -110,10 +110,10 @@ public class TV {
 		return estado;
 	}
 	
-	public static void setNumTV(int num) {
+	public static void setNumTv(int num) {
 		TV.numTV=num;
 	}
-	public static int getNumTV() {
+	public static int getNumTv() {
 		return TV.numTV;
 	}
 
