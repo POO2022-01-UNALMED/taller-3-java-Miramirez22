@@ -41,11 +41,11 @@ public class TV {
 	}
 	
 	public void setControl(Control control) {
-		this.controltv=control;
+		this.control=control;
 	}
 	
 	public Control getControl() {
-		return controltv;
+		return control;
 	}
 	public void setMarca(Marca marcatv) {
 		this.marca=marcatv;
